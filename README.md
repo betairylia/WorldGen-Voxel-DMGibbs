@@ -143,6 +143,9 @@ During inference, we simply generate a new $x_0$ from $u$, then feed it into the
 
 ## Results
 
+Simple environment: the sequence ($x$) will be converted to green / blue boxes with "physical constraints".  
+The goal ($E(x)$) will be to fill exactly 65% (70%?) of the entire space (`32x32x32`) with solid blocks (green / blue boxes).
+
 ### Placeholder MLP
 `sequence length = 128`
 
